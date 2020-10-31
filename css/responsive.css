@@ -1,0 +1,122 @@
+/* Responsive Started */
+
+
+/* Samsung Galaxy S5 */
+
+
+/* Viewport: 360px x 640px */
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    /* Default CSS Start */
+    .container {
+        width: 310px;
+    }
+    .nav-icon {
+        height: 25px;
+        width: 25px;
+        margin-left: 8px;
+    }
+    .fa {
+        margin: 5px;
+    }
+    .srch_bx {
+        width: 69px;
+        height: 25px;
+        font-size: 6pt;
+    }
+    .srch_bt {
+        width: 42px;
+        height: 25px;
+        font-size: 6pt;
+        margin-top: 3px;
+    }
+    .banner {
+        height: 152px;
+    }
+    .nav-logo {
+        text-align: center;
+    }
+    .nav-logo {
+        margin: 40px 0px;
+    }
+    .nav-logo img {
+        margin: 17px;
+    }
+    .nav-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .heading h3 {
+        font-size: 13pt;
+    }
+    .heading p {
+        font-size: 7pt;
+    }
+    .image img {
+        margin-left: 8px;
+        width: 174px;
+        margin-top: 86px;
+    }
+    .srv-head h3 {
+        font-size: 23pt;
+    }
+    .srv-head p {
+        font-size: 8pt;
+    }
+    .srv-row {
+        margin: 30px auto 0px auto;
+    }
+    .srv-col {
+        display: block;
+        width: 310px;
+        height: 280px;
+        padding-bottom: 70px;
+        margin-bottom: 35px;
+    }
+    .col h4 {
+        font-size: 15pt;
+    }
+    .col p {
+        font-size: 11pt;
+    }
+    .cnt-name {
+        width: 280px;
+        height: 32pt;
+        margin-right: 0px;
+    }
+    .int {
+        font-size: 12pt;
+    }
+    .cnt-email {
+        width: 280px;
+        height: 32pt;
+    }
+    .cnt-phone {
+        width: 280px;
+        height: 32pt;
+        margin-right: 0px;
+    }
+    .cnt-company {
+        width: 280px;
+        height: 32pt;
+    }
+    .cnt-msg {
+        width: 280px;
+    }
+    button {
+        width: 180px;
+        height: 45px;
+        font-size: 13pt;
+    }
+    .footer img {
+        padding-top: 20px;
+        max-width: 265px;
+    }
+
+
+
+}
