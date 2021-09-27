@@ -1,327 +1,342 @@
-/* default css started */
+/*
+ Project Name: Learn With Ali Hossain;
+ version:1.0;
+ Developer: github.com/mk1121
+ * default css started */
+
 * {
-	margin: 0;
-	padding: 0;
-	outline: 0;
-	list-style: none;
-	text-decoration: none;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 .clr {
-	clear: both;
+  clear: both;
 }
 
 .container {
-	width: 1170px;
-	margin: auto !important;
+  width: 1000px;
+  margin: auto !important;
 }
-
 
 /* default css end */
 
-
 /* Navbar started */
 .navbar {
-	padding: 20px;
-	background: #a88c95;
+  padding: 20px;
+  background: #a88c95;
 }
-
+.container.navDiv {
+  display: flex;
+  flex-direction: row;
+}
 .icon {
-	float: left;
+  flex: 50%;
 }
 
 .nav-icon {
-	display: inline;
-	float: left;
-	height: 32px;
-	width: 32px;
-	border-radius: 50%;
-	background-color: #d2d2d2;
-	text-align: center;
-	margin-left: 15px;
-	margin-top: 4px;
-	font-size: 15px;
-	color: #6a3144;
-	transition: .5s;
+  display: inline;
+  float: left;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: #d2d2d2;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 4px;
+  font-size: 15px;
+  color: #6a3144;
+  transition: 0.5s;
 }
 
-.fas, .fab {
-	margin: 8px;
+.fas,
+.fab {
+  margin: 8px;
 }
 
 .nav-icon:hover {
-	background-color: #ee802f;
-	color: white;
+  background-color: #ee802f;
+  color: white;
 }
 
 .search {
-	float: right;
+  flex: 50%;
+  text-align: right;
 }
 
 .srch_bx {
-	width: 210px;
-	height: 34px;
-	font-size: 14pt;
-	font-family: 'opensans', sans-serif;
-	font-weight: 400;
-	color: #999999;
-	padding-left: 10px;
-	border-style: none;
+  width: 210px;
+  height: 34px;
+  font-size: 14pt;
+  font-family: "opensans", sans-serif;
+  font-weight: 400;
+  color: #999999;
+  padding-left: 10px;
+  border-style: none;
 }
 
 .srch_bt {
-	width: 75px;
-	height: 35px;
-	background: #97455f;
-	color: white;
-	box-shadow: none;
-	text-transform: uppercase;
-	font-size: 12pt;
-	font-family: 'opensans', sans-serif;
-	font-weight: 600;
-	margin-left: -4px;
-	border-style: none;
+  width: 75px;
+  height: 35px;
+  background: #97455f;
+  color: white;
+  box-shadow: none;
+  text-transform: uppercase;
+  font-size: 12pt;
+  font-family: "opensans", sans-serif;
+  font-weight: 600;
+  margin-left: -4px;
+  border-style: none;
 }
-
+.container.nvLg {
+  display: flex;
+}
+.nav-logo {
+  flex: auto;
+  text-align: center;
+}
 .nav-logo img {
-	margin: 15px 40%;
+  margin: 15px 0px;
 }
 
 .nav-menu {
-	background: #97455f;
+  background: #97455f;
 }
-.res-nav{
-	display: none;
-}
-.nav-menu ul {
-	margin-left: 13%;
+.res-nav {
+  display: none;
 }
 
 .nav-menu ul li {
-	display: inline-block;
-	padding: 15px;
-	transition: .4s;
+  display: inline-block;
+  padding: 15px;
+  transition: 0.4s;
 }
 
 .nav-menu ul li:hover {
-	background: #6a3144;
+  background: #6a3144;
 }
 
 .nav-menu ul li a {
-	font-size: 14pt;
-	color: white;
-	font-family: 'opensans', sans-serif;
-	font-weight: 600;
+  font-size: 14pt;
+  color: white;
+  font-family: "opensans", sans-serif;
+  font-weight: 600;
 }
 
 /* Navbar end */
 
 /* banner started */
 .banner {
-	background-image: url(../img/banner.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 557px;
+  background-image: url(../img/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 557px;
 }
 
 /* banner end */
 
-
 /* wwa started  */
 .wwa {
-	margin-top: 70px;
+  margin-top: 70px;
 }
-
+.container.midSec {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px 0px 30px;
+}
 .heading {
-	float: left;
-	width: 40%;
+  flex: 50%;
+  flex-wrap: wrap;
 }
 
 .heading h3 {
-	font-size: 30pt;
-	font-family: 'opensans', sans-serif;
-	font-weight: 400;
-	color: #333333;
+  font-size: 30pt;
+  font-family: "opensans", sans-serif;
+  font-weight: 400;
+  color: #333333;
 }
 
 .heading p {
-	font-size: 18pt;
-	font-family: 'opensans', sans-serif;
-	font-weight: 400;
-	color: #404040;
-	margin-top: 35px;
+  font-size: 18pt;
+  font-family: "opensans", sans-serif;
+  font-weight: 400;
+  color: #404040;
+  margin-top: 35px;
 }
 
 .heading p br {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .image {
-	float: right;
-	width: 60%;
-	margin-right: 0px;
+  flex: 50%;
+  justify-content: right;
 }
 
 .image img {
-	margin-left: 90px;
+  margin-left: 90px;
+  width: 450px;
 }
 
 /* wwa end  */
 
 /* srv started */
 .srv {
-	background: #f5f5f5;
+  background: #f5f5f5;
 }
 
 .srv-head {
-	text-align: center;
-	margin-top: 20px;
-	padding-top: 40px;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 40px;
 }
 
 .srv-head h3 {
-	font-size: 48pt;
-	font-family: 'opensans', sans-serif;
-	font-weight: 600;
-	color: #6a3144;
+  font-size: 48pt;
+  font-family: "opensans", sans-serif;
+  font-weight: 600;
+  color: #6a3144;
 }
 
 .srv-head p {
-	font-size: 18pt;
-	font-family: 'opensans', sans-serif;
-	font-weight: 400;
-	color: #333;
+  font-size: 18pt;
+  font-family: "opensans", sans-serif;
+  font-weight: 400;
+  color: #333;
 }
 
 .srv-row {
-	margin-top: 30px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .srv-col {
-	float: left;
-	width: 380px;
-	height: 370px;
-	padding-left: 10px;
-	transition: all ease-in .5s;
+  flex: 30%;
+  width: 380px;
+  height: 370px;
+  padding-left: 10px;
+  transition: all ease-in 0.5s;
 }
 
 .col {
-	position: relative;
+  position: relative;
 }
 
 .srv-col h3 {
-	font-size: 100pt;
-	font-family: 'oswald', sans-serif;
-	color: #e4e2e0;
-	font-weight: 700;
+  font-size: 100pt;
+  font-family: "oswald", sans-serif;
+  color: #e4e2e0;
+  font-weight: 700;
 }
 
 .col h4 {
-	font-size: 20pt;
-	font-family: 'opensans', sans-serif;
-	color: #523827;
-	font-weight: 700;
-	margin-left: 25px;
-	position: absolute;
-	bottom: 105px;
-	left: 50px;
-	text-transform: uppercase;
+  font-size: 20pt;
+  font-family: "opensans", sans-serif;
+  color: #523827;
+  font-weight: 700;
+  margin-left: 25px;
+  position: absolute;
+  bottom: 105px;
+  left: 50px;
+  text-transform: uppercase;
 }
 
 .col p {
-	font-size: 14pt;
-	color: #000000;
-	font-family: 'opensans', sans-serif;
-	font-weight: 400;
-	margin-top: 35px;
-	margin-left: 51px;
+  font-size: 14pt;
+  color: #000000;
+  font-family: "opensans", sans-serif;
+  font-weight: 400;
+  margin-top: 35px;
+  margin-left: 51px;
 }
 
 .srv-col:hover {
-	box-shadow: -2px 10px 34px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px 10px 34px -7px rgba(0, 0, 0, 0.75);
 }
-
 
 /* srv end */
 
 /* contact started */
 .contact {
-	background-image: url(../img/contact_banner.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+  background-image: url(../img/contact_banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .cnt-head {
-	text-align: center;
+  text-align: center;
 }
 .cnt-head h3 {
-	padding-top: 70px;
-	font-size: 36pt;
-	font-family: 'oswald', sans-serif;
-	font-weight: 400;
-	color: #ffffff;
+  padding-top: 70px;
+  font-size: 36pt;
+  font-family: "oswald", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
 }
 .cnt-form {
-	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 70px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 .int {
-	margin-top: 15px;
-	border-radius: 8px;
-	font-size: 18pt;
-	font-weight: 400;
-	font-family: 'opensans',sans-serif;
-	border-style: none;
+  margin-top: 15px;
+  border-radius: 8px;
+  font-size: 18pt;
+  font-weight: 400;
+  font-family: "opensans", sans-serif;
+  border-style: none;
 }
 .cnt-name {
-	width: 447px;
-	height: 47pt;
-	margin-right: 10px;
+  width: 447px;
+  height: 47pt;
+  margin-right: 10px;
 }
 .cnt-email {
-	width: 447px;
-	height: 47pt;
+  width: 447px;
+  height: 47pt;
 }
 
 .cnt-phone {
-	width: 447px;
-	height: 47pt;
-	margin-right: 10px;
+  width: 447px;
+  height: 47pt;
+  margin-right: 10px;
 }
 .cnt-company {
-	width: 447px;
-	height: 47pt;
+  width: 447px;
+  height: 47pt;
 }
 .cnt-msg {
-	width: 909px;
-	height: 124pt;
+  width: 909px;
+  height: 124pt;
 }
 button {
-	background: #97455f;
-	border-style: none;
-	width: 255px;
-	height: 54px;
-	font-size: 21pt;
-	font-weight: 600;
-	font-family: 'opensans',sans-serif;
-	border-radius: 26px;
-	color: #fff;
-	margin-top: 25px;
+  background: #97455f;
+  border-style: none;
+  width: 255px;
+  height: 54px;
+  font-size: 21pt;
+  font-weight: 600;
+  font-family: "opensans", sans-serif;
+  border-radius: 26px;
+  color: #fff;
+  margin-top: 25px;
 }
-
-
 
 /* contact end  */
 
 /* footer started */
 
 .footer {
-	text-align: center;
+  text-align: center;
 }
 
 .footer img {
-	padding: 20px;
+  padding: 20px;
 }
 /* footer end  */
+
